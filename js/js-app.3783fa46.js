@@ -1405,33 +1405,7 @@
                 }
             };
         n("def5");
-        const rn = i()(cn, [
-            ["render", an]
-        ]);
-        var ln = rn,
-            sn = {
-                class: "about"
-            },
-            dn = Object(a["createElementVNode"])("h1", null, "Not Found", -1),
-            mn = Object(a["createTextVNode"])("Home");
-
-        function un(e, t) {
-            var n = Object(a["resolveComponent"])("router-link");
-            return Object(a["openBlock"])(), Object(a["createElementBlock"])("div", sn, [dn, Object(a["createVNode"])(n, {
-                to: "/"
-            }, {
-                default: Object(a["withCtx"])((function() {
-                    return [mn]
-                })),
-                _: 1
-            })])
-        }
-        const pn = {},
-            hn = i()(pn, [
-                ["render", un]
-            ]);
-        var bn = hn;
-
+ 
         function gn(e, t, n, o, A, c) {
             var i = Object(a["resolveComponent"])("qr"),
                 r = Object(a["resolveComponent"])("Rotation"),
