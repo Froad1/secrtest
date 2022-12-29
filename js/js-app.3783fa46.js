@@ -1418,7 +1418,7 @@
         function un(e, t) {
             var n = Object(a["resolveComponent"])("router-link");
             return Object(a["openBlock"])(), Object(a["createElementBlock"])("div", sn, [dn, Object(a["createVNode"])(n, {
-                to: "/secrtest/"
+                to: "/"
             }, {
                 default: Object(a["withCtx"])((function() {
                     return [mn]
